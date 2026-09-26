@@ -1,3 +1,11 @@
+[project]
+name = "frappe_s3_attachment"
+version = "1.0.0"
+authors = [{ name = "Zerodha", email = "ramesh.ravi@zerodha.com" }]
+description = "Frappe app to make file upload to S3 through attach file option."
+requires-python = ">=3.10"
+readme = "README.md"
+
 [tool.bench.frappe-dependencies]
 frappe = ">=10.0.0,<17.0.0"
 
